@@ -298,7 +298,7 @@ table {
 .footer-col-wrapper {
   font-size: 15px;
   width: -webkit-calc(100% - (20px * 2));
-  color: #828282;
+  color: white;
   margin: 0;
   float: left;
   padding: 20px; }

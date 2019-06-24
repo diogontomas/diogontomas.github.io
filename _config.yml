@@ -4,7 +4,6 @@ email: diogo.n.tomas@gmail.com
 description: > # this means to ignore newlines until "exclude"
   “ROSES ARE RED, VIOLETS ARE BLUE I'M A DEISGNER CAN I WORK FOR YOU?
 
-baseurl: /jekyll-dxd
 
 exclude:
   - Gemfile

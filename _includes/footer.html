@@ -11,13 +11,11 @@
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
+              {%- endif -%}
             </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
-            <li class="p-name">
-            <p>+351 927 165 625</p>
-            </li>
         </ul>
       </div>
 

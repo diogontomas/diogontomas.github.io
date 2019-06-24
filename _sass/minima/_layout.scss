@@ -142,7 +142,7 @@
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
     width: -webkit-calc(100% - (20px * 2));
-  color: $grey-color;
+  color: white;
   margin: 0;
   @extend %clearfix;
     float:left;
