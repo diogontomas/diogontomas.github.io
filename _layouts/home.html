@@ -9,7 +9,6 @@ layout: default
 
   {{ content }}
     
-    <section id="bio">
         <section class="leftcolumn">
             <article class="shorttext">
                 <p1> 21 years old <br> Male <br> Junior Ux Designer @ Wingman <br>Lisbon</p1>   
@@ -18,20 +17,21 @@ layout: default
                 <p> Obrigado :)</p>
             </article>
         </section>
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Some work" }}</h2>
-    <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-    </ul>
-  {%- endif -%}
+        <section class="rightcolumn">
+             {%- if site.posts.size > 0 -%}
+                <h2 class="post-list-heading">{{ page.list_title | default: "Some work" }}</h2>
+                <ul class="post-list">
+                {% for post in site.posts %}
+                  <li>
+                    <h3>
+                      <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                      </a>
+                    </h3>
+                  </li>
+                {% endfor %}
+                </ul>
+              {%- endif -%}
+        </section>
 
 </div>
