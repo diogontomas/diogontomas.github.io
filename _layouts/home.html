@@ -8,14 +8,22 @@ layout: default
   {%- endif -%}
 
   {{ content }}
+    
+    <section id="bio">
+        <section class="leftcolumn">
+            <article class="shorttext">
+                <p1> 21 years old <br> Male <br> Junior Ux Designer @ Wingman <br>Lisbon</p1>   
+                <p>/ <br> Estudo há 5602 dias, com pausas para férias de sensivelmente 4-5 meses por ano. <br> Escrevi, desenhei, pintei, contei, chorei, ri, dormi, não dormi, passei a tudo, não dormi outra vez, faltei, cheguei cedo, cheguei tarde. filmei, cozi, comi, namorei, trabalhei e licenciei-me. <br> A minha parte favorita foi comer.</p>
+                <p>Agora procuro fazer tudo isto, mas a ganhar algum dinheiro, à direita estou eu e a minha vida relatada de forma relativamente interessante para uma possível contratação.</p>
+                <p> Obrigado :)</p>
+            </article>
+        </section>
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Some work" }}</h2>
     <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}

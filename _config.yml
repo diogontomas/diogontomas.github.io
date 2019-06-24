@@ -1,6 +1,6 @@
-title: My Jekyll DXD Blog
-author: Daniel da Silva
-email: email@example.com
+title: DIOGO TOMÁS
+author: DIOGO TOMÁS
+email: diogo.n.tomas@gmail.com
 description: > # this means to ignore newlines until "exclude"
   This is a demo site used for the class of
   "Linguagens e Tecnologias Digitais" about Jekyll
@@ -20,6 +20,6 @@ date_format: "%b %-d, %Y"
 
 # generate social links in footer
 social_links:
-  twitter: danielfdsilva
-  github:  danielfdsilva
-  # facebook:
+  twitter: diogotomas
+  github:  diogotomas
+  facebook: diogotomas
