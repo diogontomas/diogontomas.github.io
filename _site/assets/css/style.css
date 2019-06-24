@@ -126,37 +126,34 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px));
-  max-width: calc(800px - (30px));
   margin: 0;
   padding-right: 0;
   padding-left: 0; }
   @media screen and (min-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px * 2));
-      max-width: calc(800px - (30px * 2));
-      padding-right: 30px;
-      padding-left: 30px; } }
+      padding-right: 0;
+      padding-left: 0; } }
 
 .leftcolumn {
   width: 300px;
   float: left;
   background-color: white;
   color: black;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px; }
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px; }
 
 .rightcolumn {
   margin-left: 50px;
   width: 300px;
   float: left;
-  color: white; }
+  color: white;
+  padding-top: 20px; }
 
 /**
  * Clearfix
  */
-.wrapper:after, .footer-col-wrapper:after {
+.footer-col-wrapper:after {
   content: "";
   display: table;
   clear: both; }
@@ -212,10 +209,12 @@ table {
 
 .site-title {
   font-size: 26px;
+  font-family: sans-serif;
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left;
+  padding-left: 20px; }
   @media screen and (max-width: 600px) {
     .site-title {
       padding-right: 45px; } }
@@ -285,8 +284,7 @@ table {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  border-top: 1px solid white; }
 
 .footer-heading {
   font-size: 18px;
@@ -299,19 +297,21 @@ table {
 
 .footer-col-wrapper {
   font-size: 15px;
+  width: -webkit-calc(100% - (20px * 2));
   color: #828282;
-  margin-left: -15px; }
+  margin: 0;
+  float: left;
+  padding: 20px; }
 
 .footer-col {
-  width: -webkit-calc(100% - (30px / 2));
-  width: calc(100% - (30px / 2));
-  margin-bottom: 15px;
-  padding-left: 15px; }
+  width: auto;
+  border-style: solid;
+  border-color: white;
+  padding: 20px; }
 
 .footer-col-1,
 .footer-col-2 {
-  width: -webkit-calc(50% - (30px / 2));
-  width: calc(50% - (30px / 2)); }
+  width: -webkit-calc(50% - (23px * 2)); }
 
 .footer-col-3 {
   width: -webkit-calc(100% - (30px / 2));
@@ -364,7 +364,8 @@ table {
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding: 20px; }
 
 .post-title,
 .post-content h1 {
@@ -415,8 +416,8 @@ table {
  * Grid helpers
  */
 .one-half {
-  width: -webkit-calc(50% - (30px / 2));
-  width: calc(50% - (30px / 2)); }
+  width: -webkit-calc(50% - (23px * 2));
+  width: calc(50% - (23px * 2)); }
 
 /**
  * Syntax highlighting styles

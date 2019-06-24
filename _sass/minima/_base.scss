@@ -176,18 +176,13 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
   margin: 0;
   padding-right: 0;
   padding-left: 0;
-  @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -196,9 +191,9 @@ pre {
     float: left;
     background-color: white;
     color: black;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .rightcolumn {
@@ -206,6 +201,7 @@ pre {
     width: 300px;
     float: left;
     color: white;
+    padding-top: 20px;
 }
 
 /**
