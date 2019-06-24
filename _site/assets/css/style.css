@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: white;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #5a5a5a; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: yellow;
+    text-decoration: line-through; }
   .social-media-list a:hover {
     text-decoration: none; }
     .social-media-list a:hover .username {
@@ -151,7 +151,7 @@ pre {
   margin-left: 50px;
   width: 300px;
   float: left;
-  background-color: greenyellow; }
+  color: white; }
 
 /**
  * Clearfix
