@@ -196,6 +196,22 @@ table {
   table td {
     border: 1px solid #e8e8e8; }
 
+@media screen and (max-width: 690px) {
+  .leftcolumn {
+    width: -webkit-calc(100% - (20px * 2));
+    float: left;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px; }
+
+  .rightcolumn {
+    margin-left: 0;
+    width: 300px;
+    float: left;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px; } }
 /**
  * Site header
  */
