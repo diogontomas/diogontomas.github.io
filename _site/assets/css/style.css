@@ -335,6 +335,11 @@ table {
 .footer-col p {
   margin-top: 20px; }
 
+.u-email {
+  transition: 0.3s; }
+  .u-email:hover {
+    font-size: 20px; }
+
 /**
  * Page content
  */
@@ -369,11 +374,6 @@ table {
   font-size: 25px;
   line-height: 20px; }
 
-.u-email {
-  transition: 0.3s; }
-  .u-email:hover {
-    font-size: 20px; }
-
 /**
  * Posts
  */
@@ -392,7 +392,15 @@ table {
       font-size: 42px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap; }
+  .post-content p {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
   .post-content h2 {
     font-size: 28px; }
     @media screen and (min-width: 800px) {
@@ -408,23 +416,10 @@ table {
     @media screen and (min-width: 800px) {
       .post-content h4 {
         font-size: 20px; } }
-
-.social-media-list {
-  display: table;
-  margin: 0 auto; }
-  .social-media-list li {
-    float: left;
-    margin: 0 5px; }
-    .social-media-list li:first-of-type {
-      margin-left: 0; }
-    .social-media-list li:last-of-type {
-      margin-right: 0; }
-    .social-media-list li a {
-      display: block;
-      padding: 7.5px;
-      border: 1px solid #e8e8e8; }
-    .social-media-list li:hover .svg-icon {
-      fill: currentColor; }
+  .post-content .img-responsive {
+    display: flex;
+    width: calc(300px - (20px));
+    margin: 10px; }
 
 /**
  * Grid helpers
@@ -433,10 +428,6 @@ table {
   width: -webkit-calc(100% - (13px * 2));
   width: calc(100% - (13px * 2)); }
 
-@media screen and (max-width: 690px) {
-  .one-half {
-    width: -webkit-calc(100% - (13px * 2));
-    width: calc(100% - (13px * 2)); } }
 /**
  * Syntax highlighting styles
  */
