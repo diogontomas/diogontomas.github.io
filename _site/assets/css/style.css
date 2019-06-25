@@ -334,6 +334,9 @@ table {
   border-color: white;
   padding: 10px; }
 
+.footer-col p {
+  margin-top: 20px; }
+
 .footer-col-1,
 .footer-col-2 {
   width: -webkit-calc(50% - (13px * 2)); }
@@ -458,10 +461,7 @@ table {
 @media screen and (max-width: 690px) {
   .one-half {
     width: -webkit-calc(100% - (13px * 2));
-    width: calc(100% - (13px * 2)); }
-
-  .footer-col p {
-    margin-top: 20px; } }
+    width: calc(100% - (13px * 2)); } }
 /**
  * Syntax highlighting styles
  */
