@@ -224,7 +224,11 @@ table {
   min-height: 55.95px;
   background-color: white;
   padding-top: 20px;
+  transition: 0.3s;
   position: relative; }
+  .site-header:hover {
+    text-decoration: line-through;
+    background-color: yellow; }
 
 .site-title {
   font-size: 26px;
@@ -239,6 +243,9 @@ table {
       padding-right: 45px; } }
   .site-title, .site-title:visited {
     color: black; }
+  .site-title:hover {
+    text-decoration: line-through;
+    background-color: yellow; }
 
 .site-nav {
   position: absolute;

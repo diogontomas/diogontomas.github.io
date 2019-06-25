@@ -7,9 +7,15 @@
   min-height: $spacing-unit * 1.865;
     background-color: white;
     padding-top: 20px;
+      transition: 0.3s;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+    
+    &:hover {
+    text-decoration:line-through;
+    background-color: yellow;
+  }
 }
 
 .site-title {
@@ -28,6 +34,10 @@
   &,
   &:visited {
     color: black;
+  }
+     &:hover {
+    text-decoration:line-through;
+    background-color: yellow;
   }
     
 }
