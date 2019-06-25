@@ -284,7 +284,7 @@ table {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid white; }
+  border-top: 2px solid white; }
 
 .footer-heading {
   font-size: 18px;
@@ -297,21 +297,20 @@ table {
 
 .footer-col-wrapper {
   font-size: 15px;
-  width: -webkit-calc(100% - (20px * 2));
+  width: -webkit-calc(100% - (10px * 2));
   color: white;
   margin: 0;
   float: left;
-  padding: 20px; }
+  padding: 10px; }
 
 .footer-col {
-  width: auto;
   border-style: solid;
   border-color: white;
-  padding: 20px; }
+  padding: 10px; }
 
 .footer-col-1,
 .footer-col-2 {
-  width: -webkit-calc(50% - (23px * 2)); }
+  width: -webkit-calc(50% - (13px * 2)); }
 
 .footer-col-3 {
   width: -webkit-calc(100% - (30px / 2));
@@ -416,8 +415,8 @@ table {
  * Grid helpers
  */
 .one-half {
-  width: -webkit-calc(50% - (23px * 2));
-  width: calc(50% - (23px * 2)); }
+  width: -webkit-calc(50% - (13px * 2));
+  width: calc(50% - (13px * 2)); }
 
 /**
  * Syntax highlighting styles

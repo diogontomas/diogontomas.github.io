@@ -125,7 +125,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid white;
+  border-top: 2px solid white;
 }
 
 .footer-heading {
@@ -141,24 +141,23 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-    width: -webkit-calc(100% - (20px * 2));
+    width: -webkit-calc(100% - (10px * 2));
   color: white;
   margin: 0;
   @extend %clearfix;
     float:left;
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer-col {
-  width: auto;
     border-style:solid;
     border-color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer-col-1,
 .footer-col-2 {
-  width: -webkit-calc(50% - (23px * 2));
+  width: -webkit-calc(50% - (13px * 2))
 }
 
 .footer-col-3 {
@@ -299,6 +298,6 @@
  * Grid helpers
  */
 .one-half {
-  width: -webkit-calc(50% - (23px * 2));
-  width:         calc(50% - (23px * 2));
+  width: -webkit-calc(50% - (13px * 2));
+  width:         calc(50% - (13px * 2));
 }
