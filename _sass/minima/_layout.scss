@@ -25,7 +25,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-    padding-left: 20px;  
+    transition: 0.3s;  
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -235,6 +235,7 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+      transition: 0.3s;
 }
 
 .shorttext p1 {
@@ -243,6 +244,13 @@
     line-height: 20px;
 }
 
+.u-email {
+    transition: 0.3s;
+    
+    &:hover {
+    font-size: 20px;
+  }
+}
 
 
 /**

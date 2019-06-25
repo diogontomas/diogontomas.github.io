@@ -237,7 +237,7 @@ table {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  padding-left: 20px; }
+  transition: 0.3s; }
   @media screen and (max-width: 600px) {
     .site-title {
       padding-right: 45px; } }
@@ -383,12 +383,18 @@ table {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 24px;
+  transition: 0.3s; }
 
 .shorttext p1 {
   font-family: serif;
   font-size: 25px;
   line-height: 20px; }
+
+.u-email {
+  transition: 0.3s; }
+  .u-email:hover {
+    font-size: 20px; }
 
 /**
  * Posts
