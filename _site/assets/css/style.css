@@ -224,7 +224,7 @@ table {
   min-height: 55.95px;
   background-color: white;
   padding-top: 20px;
-  transition: 0.3s;
+  transition: 1s;
   position: relative; }
   .site-header:hover {
     text-decoration: line-through;
@@ -236,16 +236,14 @@ table {
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
-  transition: 0.3s; }
+  float: left; }
   @media screen and (max-width: 600px) {
     .site-title {
       padding-right: 45px; } }
   .site-title, .site-title:visited {
     color: black; }
   .site-title:hover {
-    text-decoration: line-through;
-    background-color: yellow; }
+    text-decoration: line-through; }
 
 .site-nav {
   position: absolute;

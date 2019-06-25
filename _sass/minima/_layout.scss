@@ -7,7 +7,7 @@
   min-height: $spacing-unit * 1.865;
     background-color: white;
     padding-top: 20px;
-      transition: 0.3s;
+      transition: 1s;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -24,8 +24,7 @@
     font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
-    transition: 0.3s;  
+  float: left; 
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -37,7 +36,6 @@
   }
      &:hover {
     text-decoration:line-through;
-    background-color: yellow;
   }
     
 }
