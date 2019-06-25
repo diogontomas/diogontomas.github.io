@@ -207,11 +207,14 @@ table {
 
   .rightcolumn {
     margin-left: 0;
-    width: 300px;
+    width: -webkit-calc(100% - (20px * 2));
     float: left;
     color: white;
     padding-top: 20px;
     padding-left: 20px; } }
+@media screen and (max-width: 312px) {
+  .leftcolumn {
+    font-size: 15px; } }
 /**
  * Site header
  */
@@ -375,6 +378,11 @@ table {
   display: block;
   font-size: 24px; }
 
+.shorttext p1 {
+  font-family: serif;
+  font-size: 25px;
+  line-height: 20px; }
+
 /**
  * Posts
  */
@@ -434,6 +442,13 @@ table {
   width: -webkit-calc(50% - (13px * 2));
   width: calc(50% - (13px * 2)); }
 
+@media screen and (max-width: 690px) {
+  .one-half {
+    width: -webkit-calc(100% - (13px * 2));
+    width: calc(100% - (13px * 2)); }
+
+  .footer-col p {
+    margin-top: 20px; } }
 /**
  * Syntax highlighting styles
  */
