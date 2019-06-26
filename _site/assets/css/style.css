@@ -41,22 +41,6 @@ main {
   /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 /**
- * Images
- */
-img {
-  max-width: 100%;
-  vertical-align: middle; }
-
-/**
- * Figures
- */
-figure > img {
-  display: block; }
-
-figcaption {
-  font-size: 14px; }
-
-/**
  * Lists
  */
 ul, ol {
@@ -87,19 +71,6 @@ a {
     text-decoration: none; }
     .social-media-list a:hover .username {
       text-decoration: underline; }
-
-/**
- * Blockquotes
- */
-blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
 
 /**
  * Code formatting
@@ -159,43 +130,8 @@ pre {
   clear: both; }
 
 /**
- * Icons
- */
-.orange {
-  color: #f66a0a; }
-
-.grey {
-  color: #828282; }
-
-.svg-icon {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  fill: currentColor;
-  padding: 5px 3px 2px 5px;
-  vertical-align: text-bottom; }
-
-/**
- * Tables
- */
-table {
-  margin-bottom: 30px;
-  width: 100%;
-  text-align: left;
-  color: #3f3f3f;
-  border-collapse: collapse;
-  border: 1px solid #e8e8e8; }
-  table tr:nth-child(even) {
-    background-color: #f7f7f7; }
-  table th, table td {
-    padding: 10px 15px; }
-  table th {
-    background-color: #f0f0f0;
-    border: 1px solid #dedede;
-    border-bottom-color: #c9c9c9; }
-  table td {
-    border: 1px solid #e8e8e8; }
-
+* Responsive
+*/
 @media screen and (max-width: 690px) {
   .leftcolumn {
     width: -webkit-calc(100% - (20px * 2));
@@ -255,19 +191,6 @@ table {
   text-align: center; }
   .site-nav .nav-trigger {
     display: none; }
-  .site-nav label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer; }
-  .site-nav input ~ .trigger {
-    clear: both;
-    display: none; }
-  .site-nav input:checked ~ .trigger {
-    display: block;
-    padding-bottom: 5px; }
   .site-nav .page-link {
     color: #111;
     line-height: 1.5;

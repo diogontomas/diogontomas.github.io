@@ -53,26 +53,6 @@
       display: none;
   }
 
-
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
-
-  input ~ .trigger {
-    clear: both;
-    display: none;
-  }
-
-  input:checked ~ .trigger {
-    display: block;
-    padding-bottom: 5px;
-  }
-
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
@@ -115,7 +95,6 @@
     }
   }
 }
-
 
 
 /**
@@ -162,7 +141,6 @@
     font-size: 20px;
   }
 }
-
 
 
 /**
@@ -234,12 +212,12 @@
     display: flex;
     flex-wrap: wrap;
     
-    p {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+   p {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
 
   h2 {
