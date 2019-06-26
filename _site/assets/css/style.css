@@ -360,6 +360,10 @@ table {
   .post-list > li {
     margin-bottom: 30px; }
 
+.post-list li:last-child {
+  background-color: aliceblue;
+  color: red; }
+
 .post-meta {
   font-size: 14px;
   color: #828282; }

@@ -203,6 +203,11 @@
   }
 }
 
+.post-list li:last-child {
+  background-color: aliceblue;
+  color: red;
+}
+
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
